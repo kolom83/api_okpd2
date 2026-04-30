@@ -1,1 +1,46 @@
-Nothing to output - the modified file is just README.md which is a source/config file and no build artifacts, dependencies, or temp files are present in the changes.
+# Dependencies
+*.txt
+*.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/refs/heads/
+*.pot
+*.po
+*~
+.pydevproject
+.vscode
+.recommenders
+.DS_Store
+Thumbs.db
